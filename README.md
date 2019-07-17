@@ -11,6 +11,8 @@
 
 - Nim https://nim-lang.org
 
+- NodeJS https://nodejs.org
+
 - Karax `nimble install karax`
 
 - jsutils `nimble install jsutils`

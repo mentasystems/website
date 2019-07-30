@@ -1,0 +1,44 @@
+
+.Principal_container{
+ display:flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #273031;
+  align-items: center;
+}
+.Principal_main{
+    display:flex;
+  margin:60px 160px 60px 160px;
+  font-family: 'Orbitron', sans-serif;
+} 
+  .Principal_main span:nth-child(1){
+      font-size: 1.5rem;
+      color:white;
+  }
+  .Principal_main span:nth-child(4){
+    font-size: 2rem;
+    color:#42805b;
+}
+.Principal_main span:nth-child(5){
+    font-size: 1.5rem;
+    color:white;
+}
+
+.Principal_img{
+    width: 40vw;
+    margin-left: 20px;
+}
+@media (max-width: 768px){
+  .Principal_main {
+    margin:60px 10px 60px 10px;
+  }
+  .Principal_main span:nth-child(1){
+    font-size: 1rem;
+}
+.Principal_main span:nth-child(4){
+  font-size: 1.2rem;
+}
+.Principal_main span:nth-child(5){
+  font-size: 1rem;
+}
+}

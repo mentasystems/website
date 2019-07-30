@@ -1,0 +1,140 @@
+#Form_container{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(0, 119, 163, 0.1);
+    width: 31vw;
+    margin-right: 20vw;
+    color:white;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Form_main{
+    display:flex;
+    flex-direction: column;
+    width: 0vw;
+    margin-left: 5vw;
+}
+    
+.Form_main div{
+    display:flex;
+    flex-direction: row;
+} 
+.Form_main label{
+    margin:20px 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+} 
+.Font_text{
+    font-size: 1.2rem;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 5vw;
+    margin-top: 1vw;
+}
+
+.Form_name{
+    display:flex;
+    flex-direction: column !important;
+    flex:1;
+    margin-right: 3vw;
+}
+.Form_name input{
+    height: 3.5vh;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: none;
+    border-style: groove;
+}
+.Form_surname{
+    display:flex;
+    flex-direction: column !important;
+    flex:1;  
+}
+.Form_surname input{
+    height: 3.5vh;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: none;
+    border-style: groove;
+}
+.Form_mail{
+    display:flex;
+    flex-direction: column !important; 
+    flex:1;
+    margin-right: 3vw; 
+}
+.Form_mail input{
+    height: 3.5vh;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: none;
+    border-style: groove;
+}
+.Form_phone{
+    display:flex;
+    flex-direction: column !important; 
+    flex:1; 
+}
+.Form_phone input{
+    height: 3.5vh;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: none;
+    border-style: groove;
+}
+
+.Form_textarea{
+    display:flex;
+    flex-direction: column !important;  
+}
+.Form_textarea textarea{
+    width: 21vw;
+    border-radius: 5px;
+     outline: none;
+     resize: none;
+     margin-bottom: 25px;
+}
+.Form_btn{
+    width: 15vw;
+  padding: 1vh;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #00537c;
+  color:white;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 5vh;
+}
+@media (max-width: 768px){
+    #Form_container{
+        display:flex;
+        flex-direction: column;
+        width: 60vw;
+        margin-right: 0;
+    }
+    .Form_main div{
+        display:flex;
+        flex-direction: column;
+        width: 90vw;
+    } 
+    .Form_textarea textarea{
+        width: 49vw;
+    }
+  }
+  @media (max-width: 1200px){
+    #Form_container{
+        display:flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-right: 0;
+    }
+    .Form_main div{
+        display:flex;
+        flex-direction: column;
+        width: 80vw;
+    } 
+    .Form_textarea textarea{
+        width: 79vw;
+    }
+  }

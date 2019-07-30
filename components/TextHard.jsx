@@ -34,7 +34,7 @@ export function TextHard(props) {
                     fontFamily: "'Roboto', sans-serif",
                     fontSize: '1.1rem',
                     textAlign: 'center',
-                    color: '#808080'
+                    color: '#777'
                 }}>
                     Cada trabajo tiene unas necesidades diferentes por eso no alquilamos dispositivos por sus características.
                      En su lugar ofrecemos experiencias de usuario de manera que siempre tengas
@@ -67,7 +67,7 @@ export function TextHard(props) {
             <div style={{
                 fontFamily: "'Roboto', sans-serif",
                 fontSize: '1.1rem',
-                color: '#b3bebf',
+                color: '#777',
             }}>Cada trabajo tiene unas necesidades diferentes por eso no alquilamos dispositivos por sus características.
                         En su lugar ofrecemos experiencias de usuario de manera que siempre tengas
                         lo que necesitas para preocuparte en ofrecer tus servicios,

@@ -34,7 +34,7 @@ export function TextSecurity(props) {
                     fontFamily: "'Roboto', sans-serif",
                     fontSize: '1.1rem',
                     textAlign: 'center',
-                    color: '#808080'
+                    color: '#777'
                 }}> La seguridad de tu información, así como la de tus clientes, es lo más importante.
                                                                                  Implementamos sistemas y estrategias de seguridad que usan las grandes empresas sea cual sea tu tamaño.
                 Cumple rápidamente con la GDPR, olvídate de tus preocupaciones y tus competidores y dedícate a crecer con tu negocio. </div>
@@ -45,6 +45,7 @@ export function TextSecurity(props) {
     return <div id='Security_main' style={{
         display: 'flex',
         justifyContent: 'center',
+        alignItems: 'center',
         width: '100%',
         height: '55vh',
         marginTop: '80px',
@@ -65,16 +66,14 @@ export function TextSecurity(props) {
             <div style={{
                 fontFamily: "'Roboto', sans-serif",
                 fontSize: '1.1rem',
-                color: '#b3bebf',
+                color: '#777',
             }}> La seguridad de tu información, así como la de tus clientes, es lo más importante.
                                                                              Implementamos sistemas y estrategias de seguridad que usan las grandes empresas sea cual sea tu tamaño.
                 Cumple rápidamente con la GDPR, olvídate de tus preocupaciones y tus competidores y dedícate a crecer con tu negocio. </div>
         </div>
-        <div className='Security_img' style={{
-            flex: '1',
-        }}>
+        <div className='Security_img'>
             <img src={Security} alt="img" style={{
-                width: '100%'
+                maxHeight: 400
             }} />
         </div>
     </div>

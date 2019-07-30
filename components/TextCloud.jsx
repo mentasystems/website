@@ -37,7 +37,7 @@ export function TextCloud(props) {
                     fontFamily: "'Roboto', sans-serif",
                     fontSize: '1.1rem',
                     textAlign: 'center',
-                    color: '#808080'
+                    color: '#777'
                 }}>Migramos tu negocio a diferentes niveles para que tus herramientas estén contigo allá donde estés.
                                                                                       Accede a todos tus documentos, automatiza tus  copias de seguridad,
                                                                                       trabaja en equipo con tus empleados y colaboradores y amplia tu infraestructura minimizando costes y
@@ -78,7 +78,7 @@ export function TextCloud(props) {
             <div style={{
                 fontFamily: "'Roboto', sans-serif",
                 fontSize: '1.1rem',
-                color: '#b3bebf',
+                color: '#777',
             }}>Migramos tu negocio a diferentes niveles para que tus herramientas estén contigo allá donde estés.
                                                               Accede a todos tus documentos, automatiza tus  copias de seguridad,
                                                               trabaja en equipo con tus empleados y colaboradores y amplia tu infraestructura minimizando costes y

@@ -10,11 +10,11 @@ export function Main() {
     return <div className='Main_container'>
         <div className='Main'>
             <span className="anchor" id="texthard"></span>
-            <TextHard isMobile={window.innerWidth < 760} />
+            <TextHard isMobile={window.innerWidth < 1000} />
             <span className="anchor" id="textcloud"></span>
-            <TextCloud isMobile={window.innerWidth < 760} />
+            <TextCloud isMobile={window.innerWidth < 1000} />
             <span className="anchor" id="textsecurity"></span>
-            <TextSecurity isMobile={window.innerWidth < 760} />
+            <TextSecurity isMobile={window.innerWidth < 1000} />
         </div>
     </div>
 }

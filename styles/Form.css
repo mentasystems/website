@@ -12,8 +12,7 @@
 .Form_main{
     display:flex;
     flex-direction: column;
-    width: 0vw;
-    margin-left: 5vw;
+    padding: 20px;
 }
     
 .Form_main div{
@@ -88,7 +87,6 @@
     flex-direction: column !important;  
 }
 .Form_textarea textarea{
-    width: 21vw;
     border-radius: 5px;
     outline: none;
     resize: none;
@@ -96,8 +94,8 @@
     border: none;
 }
 .Form_btn{
-    width: 15vw;
-  padding: 1vh;
+    width: 100px;
+  padding: 10px;
   cursor: pointer;
   border-radius: 5px;
   background-color: #00537c;

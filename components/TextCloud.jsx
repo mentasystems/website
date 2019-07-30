@@ -58,8 +58,7 @@ export function TextCloud(props) {
             flex: '1'
         }}>
             <img style={{
-                width: '100%',
-                height: '100%'
+                width: '100%'
             }} src={Cloud} alt="img" />
         </div>
 

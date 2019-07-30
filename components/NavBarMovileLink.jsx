@@ -9,7 +9,7 @@ export function NavBarMobileLink(props) {
             <a href="#texthard">Confianza</a>
             <a href="#textcloud">Digitalización</a>
             <a href="#textsecurity">Seguridad</a>
-            <a href="#Form_container">Contactos</a>
+            <a href="#Form_container">Contacto</a>
         </div>
     </div>
 }

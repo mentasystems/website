@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import '../styles/Cloud';
 import Cloud from '../img/cloud.png';
 
 
@@ -40,8 +39,8 @@ export function TextCloud(props) {
                     textAlign: 'center',
                     color: '#808080'
                 }}>Migramos tu negocio a diferentes niveles para que tus herramientas estén contigo allá donde estés.
-                                                                                  Accede a todos tus documentos, automatiza tus  copias de seguridad,
-                                                                                  trabaja en equipo con tus empleados y colaboradores y amplia tu infraestructura minimizando costes y
+                                                                                      Accede a todos tus documentos, automatiza tus  copias de seguridad,
+                                                                                      trabaja en equipo con tus empleados y colaboradores y amplia tu infraestructura minimizando costes y
             dolores de cabeza. </div>
             </div>
         </div>
@@ -81,8 +80,8 @@ export function TextCloud(props) {
                 fontSize: '1.1rem',
                 color: '#b3bebf',
             }}>Migramos tu negocio a diferentes niveles para que tus herramientas estén contigo allá donde estés.
-                                                          Accede a todos tus documentos, automatiza tus  copias de seguridad,
-                                                          trabaja en equipo con tus empleados y colaboradores y amplia tu infraestructura minimizando costes y
+                                                              Accede a todos tus documentos, automatiza tus  copias de seguridad,
+                                                              trabaja en equipo con tus empleados y colaboradores y amplia tu infraestructura minimizando costes y
 dolores de cabeza. </div>
         </div>
     </div>

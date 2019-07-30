@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import '../styles/Hard';
 import Hard from '../img/hardware.png';
 
 
@@ -70,8 +69,8 @@ export function TextHard(props) {
                 fontSize: '1.1rem',
                 color: '#b3bebf',
             }}>Cada trabajo tiene unas necesidades diferentes por eso no alquilamos dispositivos por sus características.
-                    En su lugar ofrecemos experiencias de usuario de manera que siempre tengas
-                    lo que necesitas para preocuparte en ofrecer tus servicios,
+                        En su lugar ofrecemos experiencias de usuario de manera que siempre tengas
+                        lo que necesitas para preocuparte en ofrecer tus servicios,
             no en reiniciar el equipo.</div>
         </div>
         <div className='Hard_img' style={{

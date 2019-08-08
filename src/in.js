@@ -1,10 +1,10 @@
 import React from "react";
 import { render } from "react-dom";
-import { NavBar } from "./src/NavBar";
+import { NavBar } from "./NavBar";
 import { PrincipalPart } from './components/PrincipalPart';
-import { Main } from "./src/Main";
+import { Main } from "./Main";
 import { Form } from "./components/Form";
-import { Footer } from "./src/Footer";
+import { Footer } from "./Footer";
 
 function App() {
     return <div>

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { PrincipalPart } from '../components/PrincipalPart'
-import '../styles/style';
-import logo_color_extendido from '../img/logo_color_extendido.png';
-import { NavBarMobile } from "../components/NavBarMobile";
+import { PrincipalPart } from './components/PrincipalPart'
+import './styles/style';
+import logo_color_extendido from './img/logo_color_extendido.png';
+import { NavBarMobile } from "./components/NavBarMobile";
 
 
 export function NavBar() {

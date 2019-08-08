@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import '../styles/Main';
-import { TextCloud } from "../components/TextCloud";
-import { TextHard } from "../components/TextHard";
-import { TextSecurity } from "../components/TextSecurity";
+import './styles/Main';
+import { TextCloud } from "./components/TextCloud";
+import { TextHard } from "./components/TextHard";
+import { TextSecurity } from "./components/TextSecurity";
 
 
 

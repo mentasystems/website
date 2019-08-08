@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import '../styles/Footer';
-import Logo_azul from "../img/logo_fondo_azul.png";
-import logo_color_extendido from '../img/logo_color_extendido.png';
-import { Form } from "../components/Form";
+import './styles/Footer';
+import Logo_azul from "./img/logo_fondo_azul.png";
+import logo_color_extendido from './img/logo_color_extendido.png';
+import { Form } from "./components/Form";
 
 export function Footer() {
     return <div id="Footer_container">

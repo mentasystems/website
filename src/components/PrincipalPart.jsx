@@ -4,9 +4,9 @@ import config from '../particlesjs-config.json'
 
 export function PrincipalPart() {
     useEffect(() => {
-        try{
+        try {
             window.particlesJS.load('particles-js', config);
-        }catch(e){
+        } catch (e) {
             console.error(e)
         }
     }, [])

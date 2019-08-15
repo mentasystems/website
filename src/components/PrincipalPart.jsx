@@ -16,10 +16,10 @@ export function PrincipalPart() {
             position: 'absolute',
             width: window.innerWidth,
             height: '100%',
-            pointerEvents: 'none'
+            pointerEvents: 'none',
         }}></div>
         <div className='Principal_main' style={{
-            position: 'relative'
+            position: 'relative',
         }}>
             <div>
                 <span>Ordenadores y programas añaden servicios</span> <br /> <br />

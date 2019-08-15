@@ -3,6 +3,7 @@
   width: 100vw;
   background-color: #273031;
   position: fixed;
+  z-index: 100;
 }
 .style_main{
   display:flex;

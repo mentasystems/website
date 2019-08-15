@@ -29,6 +29,8 @@ export function NavBar() {
                 <a href="#Form_container">Contacto</a>
             </div>
         </div>}
-        {w < 760 && <NavBarMobile />}
+        <div style={{
+            position: 'absolute'
+        }}>{w < 760 && <NavBarMobile />}</div>
     </div>
 }
